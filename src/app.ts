@@ -18,7 +18,7 @@ cloudinary.config({
   });
 // Specify CORS options
 const corsOptions = {
-  origin: 'http://localhost:3000', // Frontend origin
+  origin: 'https://e-tap-learning.vercel.app', // Frontend origin
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
   allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
   credentials: true, // Enable if you want to include credentials like cookies
